@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.author      = "Shota Iguchi"
   s.email       = "shota-iguchi@cookpad.com"
   s.homepage    = "https://github.com/iguchi1124/failfast_validation"
-  s.summary     = "Failfast mode for ActiveModel::Validations"
+  s.summary     = "Failfast mode for ActiveModel::EachValidator"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

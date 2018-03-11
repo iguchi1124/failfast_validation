@@ -1,5 +1,5 @@
 # FailfastValidation
-Failfast mode for ActiveModel::Validations
+Failfast mode for ActiveModel::EachValidator
 
 ## Usage
 ```rb
