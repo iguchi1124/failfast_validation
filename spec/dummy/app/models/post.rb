@@ -1,6 +1,7 @@
 class Post
   include ActiveModel::Model
   include ActiveModel::Attributes
+  include ActiveModel::FailfastValidation
 
   attribute :title
   attribute :body
