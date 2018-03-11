@@ -6,6 +6,10 @@ Failfast mode for ActiveModel::EachValidator
 class YourModel
   include ActiveModel::Model
   include ActiveModel::FailfastValidation
+
+  failfast_validation :attr_name
+
+  # validates :attr_name, ....
 end
 ```
 

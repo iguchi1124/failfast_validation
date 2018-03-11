@@ -6,6 +6,8 @@ class Post
   attribute :title
   attribute :body
 
+  failfast_validation :title
+
   validates :title, presence: true, length: { minimum: 5, maximum: 100 }
   validates :body, presence: true, length: { minimum: 30 }
 end
